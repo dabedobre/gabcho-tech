@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabcho's Tech</title>
+  <link rel="icon" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #000000, #002244);
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 10px #00ccff33;
+    }
+    header img {
+      height: 40px;
+    }
+    header b {
+      display: block;
+      font-size: 14px;
+      margin-top: 5px;
+      color: #00ccff;
+    }
+    nav.main-nav {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px;
+      background-color: #111;
+      border-top: 1px solid #222;
+      border-bottom: 1px solid #222;
+    }
+    nav.main-nav a {
+      color: #00ccff;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav.main-nav a:hover {
+      background: #00ccff22;
+    }
+    .hero-section {
+      position: relative;
+      height: 180px;
+      overflow: hidden;
+    }
+    .hero-section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 26px;
+      color: #00ccff;
+      font-weight: bold;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 5px #00ccff; }
+      to { text-shadow: 0 0 20px #00ccff, 0 0 40px #00ccff; }
+    }
+    .main-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .news-card {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00ccff33;
+      flex: 1 1 48%;
+      transition: transform 0.3s;
+    }
+    .news-card:hover {
+      transform: translateY(-5px);
+    }
+    .news-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .news-card h2 {
+      font-size: 20px;
+      margin-top: 10px;
+      color: #00ccff;
+    }
+    .news-card p {
+      color: #ccc;
+    }
+    footer {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      border-top: 1px solid #222;
+      margin-top: 40px;
+    }
+    @media (max-width: 768px) {
+      .main-content {
+        flex-direction: column;
+      }
+      .news-card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Екранна снимка 2025-06-06 212324.png" alt="Logo">
+    <b>Gabcho's Tech</b>
+  </header>
+  <nav class="main-nav">
+    <a href="https://nixanbal.com">Новини</a>
+    <a href="https://mobilebulgaria.com/telefoni">Оферти</a>
+    <a href="https://www.samsung.com/bg/">Samsung</a>
+    <a href="https://flip.bg">Магазин</a>
+    <a href="register.html">Регистрация</a>
+  </nav>
+  <div class="hero-section">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbCveGX-zPnnUdc9igoAwlsg0eiBBlKQwxC4tfQPlguPTCPQ64XMuN6VrFzZ2s6pA_pA&usqp=CAU" alt="Samsung Hero">
+    </a>
+    <div class="hero-text"> </div>
+  </div>
+  <main class="main-content">
+            </div>
+                <hr class="article-divider">
+                <div class="news-card">
+                    <img src="https://i.ytimg.com/vi/SbyP5nXCs9o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAqDQ_QD2it0Ysp4bhI9Owrcu6VdA" alt="article image">
+                    <div class="news-text">
+                        <a href="article.html">
+                            <h2>Конзолата е налична и в България
+Започнаха продажбите на Nintendo Switch 2 </h2>
+                            <p>Nintendo представи новата си портативна конзола Switch 2 през април, но едва сега тя влиза в продажба. Устройството е налично от 5 юни в световен мащаб, включително и в България.</p>
+                        </a>
+                    </div>
+                </div>
+                <hr class="article-divider">
+                <div class="news-card">
+                    <img src="https://m.media-amazon.com/images/I/61bQNVp3N7L.jpg" alt="article image">
+                    <div class="news-text">
+                        <a href="second.html">
+                            <h2 >
+                                Nothing разкри кога ще представи слушалките Headphone 1</h2>
+                            <p >Досега Nothing има зад гърба си редица модели безжични слушалки, но скоро ще видим първото ѝ попълнение от класическия вид върху ушите. Припомняме, че миналия месец базираният в Ло</p>  
+                        </a>
+                    </div>
+                </div>
+                <hr class="article-divider">
+                <div class="news-card">
+                    <img src="https://www.a1.bg/mgw-web/cms/media?Name=apple-watch-10&Size=default&cacheId=" alt="article image">
+                    <div class="news-text">
+                        <a href="third.html">
+                            <h2>Лятото идва с нов смартчасовник Apple от А1 с отстъпка до 200 лв. </h2>      
+                            <p>През юни А1 предлага най-актуалните модели Apple Watch – Ultra 2, Series 10 и SE на специална цена – с до 200 лв. отстъпка при покупка в брой с план Unlimited.</p>    
+                        </a>
+                    </div>
+                </div>
+                <hr class="article-divider">
+                <div class="news-card">
+                    <img src="https://static.webcafe.bg/uploads/images/51/0951/380951/1024x576.jpg?_=1749021470" alt="article image">
+                    <div class="news-text">
+                        <a href="fourth.html">
+                            <h2>
+                                Новите модели от серията HONOR 400 идват в комплект с безжични слушалки от Vivacom</h2>
+                            <p>Vivacom има специално предложение за потребителите, избрали някой от новите модели в серията HONOR 400. Става дума за смартфоните</p>
+                        </a>
+                    </div>
+                </div>
+                <hr class="article-divider">
+               <div class="news-card">
+                <img src="https://fdn.gsmarena.com/imgroot/news/25/06/huawei-pura-80-pro-design-ofic/inline/-1200/gsmarena_002.jpg" alt="article image">
+                    <div class="news-text">
+                        <a href="fifth.html">
+                            <h2>
+                                Huawei Pura 80 Pro+ изглежда интересно </h2>
+                            <p>Наскоро стана ясно, че Huawei се кани да представи серията Pura 80 на 11 юни в Китай, а преди това компанията разкри как ще изглежда един от </p>
+                        </a>
+                    </div>
+                </div>
+                <hr class="article-divider">
+                <div class="news-card">
+                    <img src="https://nixanbal.com/media/k2/items/cache/1e539ed78fdca8a3390bb78a35359311_L.jpg" alt="article image">
+                    <div class="news-text">
+                        <a href="sixth.html">
+                            <h2>
+                                Изтече цената на Samsung Galaxy Z Flip7 FE </h2>
+                            <p>Очакванията са, че Samsung ще проведе следващата си голяма продуктова премиера Galaxy Unpacked през юли. В рамките на събитието компанията би</p>
+                        </a>
+                    </div>
+                </div>
+                <hr class="article-divider">
+                <div class="news-card">
+                    <img src="https://www.dpreview.com/files/p/articles/4499233144/28-years-later-iphone-filming.jpeg" alt="article image">
+                    <div class="news-text">
+                        <a href="first.html">
+                            <h2>
+                                
+„28 години по-късно“ е заснет с 20 броя iPhone едновременно
+                            </h2>
+                            <p>
+                                Очакваният по-късно този месец филм на режисьора Дани Бойл „28 години по-късно“ използва широка гама от съвременни технологии за филмопроизводство, включително заснеман
+                            </p>
+                        </a>
+                    </div>              
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Gabcho's Tech | Всички права запазени.
+  </footer>
+</body>
+</html>

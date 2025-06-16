@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    body {
+  margin: 0;
+  padding: 40px;
+  background: linear-gradient(#0f2027, #203a43, #2c5364);
+  font-family: 'Segoe UI', sans-serif;
+  color: #f0f0f0;
+}
+
+.tech-sheet {
+  max-width: 850px;
+  margin: 0 auto;
+  background-color: #111;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+
+.tech-sheet::before,
+.tech-sheet::after {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-size: contain;
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+.tech-sheet::before {
+  top: -40px;
+  left: -40px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Settings_font_awesome.svg') no-repeat center;
+  transform: rotate(-15deg);
+}
+
+.tech-sheet::after {
+  bottom: -40px;
+  right: -40px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/f/fb/Antu_devices-computer.svg') no-repeat center;
+  transform: rotate(15deg);
+}
+
+.tech-sheet h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.news-item {
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #2a2a2a;
+}
+
+.news-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.news-item h2 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.news-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+.news-item a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #00ccff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.news-item a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+  </style>
+</head>
+<body>
+  <div class="tech-sheet">
+    <h1>
+Huawei Pura 80 Pro+ изглежда интересно</h1>
+
+    <div class="news-item">
+      <h2>Наскоро стана ясно, че Huawei се кани да представи серията Pura 80 на 11 юни в Китай, а преди това компанията разкри как ще изглежда един от моделите в нея – Pura 80 Pro+. На пръв поглед компанията продължава да се придържа към триъгълния дизайн на острова на камерата от Pura 70.</h2>
+
+<h2>Изображението показва наличието на три сензора, включително телефото с перископна конструкция. Устройството на снимката идва в интересен червен цвят, а освен това виждаме заоблената метална рамка и извивките на задния панел, който изглежда е с гланцирано покритие.</h2>
+
+
+<h2>Заедно с това компанията стартира предварителни резервации за Pura 80 Pro и Pura 80 Pro+ във китайската платформа Vmall. Към момента на писане на този текст вече има 142 000 регистрации, които ще имат възможност да закупят устройствата веднага след представянето на 11 юни.</h2>
+      <a href="#">Прочети повече</a>
+    </div>
+  </div>
+</body>
+</html>

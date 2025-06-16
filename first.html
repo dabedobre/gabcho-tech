@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+body {
+  margin: 0;
+  padding: 40px;
+  background: linear-gradient(#0f2027, #203a43, #2c5364);
+  font-family: 'Segoe UI', sans-serif;
+  color: #f0f0f0;
+}
+
+.tech-sheet {
+  max-width: 850px;
+  margin: 0 auto;
+  background-color: #111;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+
+.tech-sheet::before,
+.tech-sheet::after {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-size: contain;
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+.tech-sheet::before {
+  top: -40px;
+  left: -40px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Settings_font_awesome.svg') no-repeat center;
+  transform: rotate(-15deg);
+}
+
+.tech-sheet::after {
+  bottom: -40px;
+  right: -40px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/f/fb/Antu_devices-computer.svg') no-repeat center;
+  transform: rotate(15deg);
+}
+
+.tech-sheet h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.news-item {
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #2a2a2a;
+}
+
+.news-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.news-item h2 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.news-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+.news-item a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #00ccff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.news-item a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+  </style>
+</head>
+<body>
+  <div class="tech-sheet">
+    <h1>„28 години по-късно“ е заснет с 20 броя iPhone едновременно</h1>
+
+    <div class="news-item">
+      <h2>Очакваният по-късно този месец филм на режисьора Дани Бойл „28 години по-късно“ използва широка гама от съвременни технологии за филмопроизводство, включително заснемане на някои сцени с помощта на iPhone. В края на миналата година писахме, че “28 години по-късно” е сниман с телефон и по-точно с iPhone 15 Pro Max, а сега от подробно интервю на Бойл за IGN получаваме още интересни детайли за създаването на филма.</h2>
+
+<h2>Дани Бойл споделя, че въпреки че не е заснет с широкоформатни камери, предстоящият филм ще бъде в широкото екранно съотношение от 2.76:1. „Решихме, че ще се възползваме от неспокойството, което първият филм създаде с бързината и скоростта, с висцералния [аспект] на начина, по който бяха изобразени заразените. Когато използваш широк екранен формат, те могат да бъдат навсякъде... трябва да продължаваш да сканираш, да ги търсиш наоколо.“</h2>
+
+
+<h2>Това е драстична промяна спрямо оригиналния филм „28 дни по-късно“ от 2002 г., който е заснет в 4:3 на miniDV камери, за да имитира изгледа на кадрите, заснети от хора, преживели апокалипсис в началото на хилядолетието. Сега Бойл използва подобен подход, като използва съвременни модели iPhone, въпреки че видеото от тях е на светлинни години напред по отношение на качеството в сравнение с потребителските miniDV камери от 2002 г.</h2>
+
+
+<h2>Освен че са ползвали iPhone за заснемането на някои сцени, Бойл и неговият оператор Антъни Дод Мантъл са създали и сложни конструкции, включително такава с 20 броя iPhone един до друг. Това, заедно със специализирани камери, прикрепени към актьорите, специални сензори, дронове и други, спомага за създаването на усещане за действие и потапяне в историята.</h2>
+
+
+<h2>Екипът е използвал по време на снимките различни уреди с фиксирани към тях iPhone, включително с осем камери и с 10 устройства. Бойл посочва, че комбинацията с 20 броя iPhone е помогнала за създаването на бюджетно решение за т.нар. bullet time ефект. С толкова много снимащи едновременно камери при монтажа е било по-лесно да се избере конкретна перспектива, която е малко по-различна от останалите. Това може да се използва и за разделяне на времето и превключване между камерите по време на динамични сцени.</h2>
+      <a href="#">Прочети повече</a>
+    </div>
+  </div>
+</body>
+</html>
